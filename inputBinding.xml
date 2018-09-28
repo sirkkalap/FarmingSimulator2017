@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<inputBinding version="103" mouseSensitivityScaleX="1" mouseSensitivityScaleY="1">
+    <input name="JUMP"                          category="ONFOOT"         key1="KEY_space"              key2="" device="0" button="BUTTON_2"                      mouse="" />                         <!-- X -->
+    <input name="ACTIVATE_HANDTOOL"             category="ONFOOT"         key1="KEY_x"                  key2="" device="0" button="BUTTON_3"                      mouse="MOUSE_BUTTON_LEFT" />        <!-- CIRCLE -->
+    <input name="PICKUP_DROP_OBJECT"            category="ONFOOT"         key1=""                       key2="" device="0" button="BUTTON_3"                      mouse="MOUSE_BUTTON_LEFT" />        <!-- CIRCLE -->
+    <input name="THROW_OBJECT"                  category="ONFOOT"         key1=""                       key2="" device="0" button="BUTTON_1"                      mouse="MOUSE_BUTTON_RIGHT" />       <!-- SQUARE -->
+    <input name="ENTER"                         category="ONFOOT VEHICLE" key1="KEY_e"                  key2="" device="0" button="BUTTON_1"                      mouse="" />                         <!-- SQUARE -->
+    <input name="CROUCH"                        category="ONFOOT"         key1="KEY_lctrl"              key2="" device="0" button="BUTTON_4"                      mouse="" />                         <!-- TRIANGLE -->
+    <input name="TOGGLE_LIGHTS_FPS"             category="ONFOOT"         key1="KEY_f"                  key2="" device="0" button="BUTTON_6 BUTTON_3"             mouse="" />                         <!-- R1 + CIRCLE -->
+    <input name="CAMERA_SWITCH"                 category="ONFOOT VEHICLE" key1="KEY_c"                  key2="" device="0" button="BUTTON_12"                     mouse="" />                         <!-- R-STICK -->
+    <input name="ACTIVATE_OBJECT"               category="ONFOOT VEHICLE" key1="KEY_r"                  key2="" device="0" button="BUTTON_11"                     mouse="" />                         <!-- L-STICK -->
+
+    <input name="PAUSE"                         category="ONFOOT VEHICLE" key1="KEY_pause"              key2="" device="0" button=""                              mouse="" />
+    <input name="SKIP_MESSAGE_BOX"              category="ONFOOT VEHICLE" key1=""                       key2="" device="0" button="BUTTON_2"                      mouse="MOUSE_BUTTON_LEFT" />        <!-- X -->
+    <input name="CAMERA_ZOOM_IN"                category="ONFOOT VEHICLE" key1="KEY_pageup"             key2="" device="0" button="BUTTON_17"                     mouse="MOUSE_BUTTON_WHEEL_UP" />    <!-- UP -->
+    <input name="CAMERA_ZOOM_OUT"               category="ONFOOT VEHICLE" key1="KEY_pagedown"           key2="" device="0" button="BUTTON_19"                     mouse="MOUSE_BUTTON_WHEEL_DOWN" />  <!-- DOWN -->
+    <input name="SWITCH_VEHICLE"                category="ONFOOT VEHICLE" key1="KEY_tab"                key2="" device="0" button="BUTTON_18"                     mouse="" />                         <!-- RIGHT -->
+    <input name="SWITCH_VEHICLE_BACK"           category="ONFOOT VEHICLE" key1="KEY_lshift KEY_tab"     key2="" device="0" button="BUTTON_20"                     mouse="" />                         <!-- LEFT -->
+
+    <input name="MENU"                          category="ONFOOT VEHICLE" key1="KEY_esc"                key2="" device="0" button="BUTTON_10"                     mouse="" />                         <!-- OPTIONS -->
+    <input name="TOGGLE_STORE"                  category="ONFOOT VEHICLE" key1="KEY_p"                  key2="" device="0" button="BUTTON_9"                      mouse="" />                         <!-- TOUCHPAD -->
+
+    <input name="ATTACH"                        category="VEHICLE"        key1="KEY_q"                  key2="" device="0" button="BUTTON_2"                      mouse="" />                         <!-- X -->
+    <input name="SWITCH_IMPLEMENT"              category="VEHICLE"        key1="KEY_g"                  key2="" device="0" button="BUTTON_4"                      mouse="" />                         <!-- TRIANGLE -->
+    <input name="TOGGLE_AI"                     category="VEHICLE"        key1="KEY_h"                  key2="" device="0" button="BUTTON_3"                      mouse="" />                         <!-- CIRCLE -->
+
+    <input name="HONK"                          category="VEHICLE"        key1="KEY_0"                  key2="" device="0" button="BUTTON_6 BUTTON_2"             mouse="" />                         <!-- R1 + X -->
+    <input name="TOGGLE_MOTOR_STATE"            category="VEHICLE"        key1="KEY_return"             key2="" device="0" button="BUTTON_6 BUTTON_1"             mouse="" />                         <!-- R1 + SQUARE -->
+    <input name="TOGGLE_TIPSTATE"               category="VEHICLE"        key1="KEY_i"                  key2="" device="0" button="BUTTON_6 BUTTON_4"             mouse="" />                         <!-- R1 + TRIANGLE -->
+    <input name="TOGGLE_LIGHTS"                 category="VEHICLE"        key1="KEY_f"                  key2="" device="0" button="BUTTON_6 BUTTON_3"             mouse="" />                         <!-- R1 + CIRCLE -->
+    <input name="TOGGLE_BEACON_LIGHTS"          category="VEHICLE"        key1="KEY_home"               key2="" device="0" button="BUTTON_6 BUTTON_17"            mouse="" />                         <!-- R1 + UP -->
+    <input name="TOGGLE_TIPSIDE"                category="VEHICLE"        key1="KEY_u"                  key2="" device="0" button="BUTTON_6 BUTTON_19"            mouse="" />                         <!-- R1 + DOWN -->
+    <input name="TOGGLE_TURNLIGHT_LEFT"         category="VEHICLE"        key1="KEY_KP_1"               key2="" device="0" button="BUTTON_6 BUTTON_20"            mouse="" />                         <!-- R1 + LEFT -->
+    <input name="TOGGLE_TURNLIGHT_RIGHT"        category="VEHICLE"        key1="KEY_KP_3"               key2="" device="0" button="BUTTON_6 BUTTON_18"            mouse="" />                         <!-- R1 + RIGHT -->
+    <input name="TOGGLE_CRABSTEERING"           category="VEHICLE"        key1="KEY_lctrl KEY_y"        key2="" device="0" button="BUTTON_6 BUTTON_11"            mouse="" />                         <!-- R1 + L-STICK -->
+    <input name="TOGGLE_TENSION_BELTS"          category="VEHICLE"        key1="KEY_l"                  key2="" device="0" button="BUTTON_6 BUTTON_12"            mouse="" />                         <!-- R1 + R-STICK -->
+
+    <input name="LOWER_IMPLEMENT"               category="VEHICLE"        key1="KEY_v"                  key2="" device="0" button="BUTTON_5 BUTTON_3"             mouse="" />                         <!-- L1 + CIRCLE -->
+    <input name="IMPLEMENT_EXTRA"               category="VEHICLE"        key1="KEY_b"                  key2="" device="0" button="BUTTON_5 BUTTON_1"             mouse="" />                         <!-- L1 + SQUARE -->
+    <input name="IMPLEMENT_EXTRA2"              category="VEHICLE"        key1="KEY_x"                  key2="" device="0" button="BUTTON_5 BUTTON_2"             mouse="" />                         <!-- L1 + X -->
+    <input name="IMPLEMENT_EXTRA3"              category="VEHICLE"        key1="KEY_y"                  key2="" device="0" button="BUTTON_5 BUTTON_4"             mouse="" />                         <!-- L1 + TRIANGLE -->
+    <input name="IMPLEMENT_EXTRA4"              category="VEHICLE"        key1="KEY_z"                  key2="" device="0" button="BUTTON_5 BUTTON_17"            mouse="" />                         <!-- L1 + UP -->
+    <input name="TOGGLE_PIPE"                   category="VEHICLE"        key1="KEY_o"                  key2="" device="0" button="BUTTON_5 BUTTON_19"            mouse="" />                         <!-- L1 + DOWN -->
+    <input name="TOGGLE_COVER"                  category="VEHICLE"        key1="KEY_n"                  key2="" device="0" button="BUTTON_5 BUTTON_20"            mouse="" />                         <!-- L1 + LEFT -->
+    <input name="TOGGLE_CHOPPER"                category="VEHICLE"        key1="KEY_comma"              key2="" device="0" button="BUTTON_5 BUTTON_18"            mouse="" />                         <!-- L1 + RIGHT -->
+    <input name="TOGGLE_MAP_SIZE"               category="ONFOOT VEHICLE" key1="KEY_9"                  key2="" device="0" button="BUTTON_5 BUTTON_11"            mouse="" />                         <!-- L1 + L-STICK -->
+    <input name="TOGGLE_CONTROLGROUP"           category="VEHICLE"        key1="KEY_lctrl KEY_z"        key2="" device="0" button="BUTTON_5 BUTTON_12"            mouse="" />                         <!-- L1 + R-STICK -->
+
+    <input name="CHANGE_DRIVING_DIRECTION"      category="VEHICLE"        key1="KEY_lctrl KEY_b"        key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_2"    mouse="" />                         <!-- L1+R1 + X -->
+    <input name="TOGGLE_TIPSTATE_GROUND"        category="VEHICLE"        key1="KEY_lctrl KEY_i"        key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_4"    mouse="" />                         <!-- L1+R1 + TRIANGLE -->
+    <input name="TOGGLE_CRUISE_CONTROL"         category="VEHICLE"        key1="KEY_3"                  key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_3"    mouse="" />                         <!-- L1+R1 + CIRCLE -->
+    <input name="RADIO_TOGGLE"                  category="ONFOOT VEHICLE" key1="KEY_5"                  key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_17"   mouse="" />                        <!-- L1+R1 + UP -->
+    <input name="RADIO_NEXT_CHANNEL"            category="ONFOOT VEHICLE" key1="KEY_6"                  key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_18"   mouse="" />                         <!-- L1+R1 + RIGHT -->
+    <input name="RADIO_PREVIOUS_CHANNEL"        category="ONFOOT VEHICLE" key1="KEY_4"                  key2="" device="0" button="BUTTON_5 BUTTON_6 BUTTON_20"   mouse="" />                         <!-- L1+R1 + LEFT -->
+    <input name="RADIO_NEXT_ITEM"               category="ONFOOT VEHICLE" key1=""                       key2="" device="0" button=""   mouse="" />
+    <input name="RADIO_PREVIOUS_ITEM"           category="ONFOOT VEHICLE" key1=""                       key2="" device="0" button=""   mouse="" />
+                                                                                                                                                                                                      <!-- Console Unused: L1+R1 + L-STICK -->
+                                                                                                                                                                                                      <!-- Console Unused: L1+R1 + R-STICK -->
+    <input name="INGAMEMAP_ACCEPT"              category="MENU"           key1=""                       key2="" device="0" button="BUTTON_12"                     mouse="" />                         <!-- R-STICK -->
+    <input name="MENU_ACCEPT"                   category="MENU"           key1="KEY_return"             key2="" device="0" button="BUTTON_2"                      mouse="" />                         <!-- X -->
+    <input name="MENU_CANCEL"                   category="MENU"           key1="KEY_esc"                key2="" device="0" button="BUTTON_3"                      mouse="" />                         <!-- CIRCLE -->
+    <input name="MENU_UP"                       category="MENU"           key1="KEY_up"                 key2="" device="0" button="BUTTON_17"                     mouse="" />                         <!-- UP -->
+    <input name="MENU_DOWN"                     category="MENU"           key1="KEY_down"               key2="" device="0" button="BUTTON_19"                     mouse="" />                         <!-- DOWN -->
+    <input name="MENU_LEFT"                     category="MENU"           key1="KEY_left"               key2="" device="0" button="BUTTON_20"                     mouse="" />                         <!-- LEFT -->
+    <input name="MENU_RIGHT"                    category="MENU"           key1="KEY_right"              key2="" device="0" button="BUTTON_18"                     mouse="" />                         <!-- RIGHT -->
+
+<!-- PC ONLY -->
+    <input name="TAKE_SCREENSHOT"               category="MENU ONFOOT VEHICLE" key1="KEY_print"         key2="" device="0" button=""                              mouse="" />
+    <input name="CHAT"                          category="ONFOOT VEHICLE" key1="KEY_t"                  key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_TURNLIGHT_HAZARD"       category="VEHICLE"        key1="KEY_KP_2"               key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_WORK_LIGHT_BACK"        category="VEHICLE"        key1="KEY_KP_6"               key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_WORK_LIGHT_FRONT"       category="VEHICLE"        key1="KEY_KP_5"               key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_HIGH_BEAM_LIGHT"        category="VEHICLE"        key1="KEY_lctrl KEY_f"        key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_LIGHT_FRONT"            category="VEHICLE"        key1=""                       key2="" device="0" button=""                              mouse="" />
+    <input name="LOWER_ALL_IMPLEMENTS"          category="VEHICLE"        key1="KEY_lctrl KEY_v"        key2="" device="0" button=""                              mouse="" />
+    <input name="TOGGLE_HELP_TEXT"              category="ONFOOT VEHICLE" key1="KEY_f1"                 key2="" device="0" button=""                              mouse="" />
+    <input name="INCREASE_TIMESCALE"            category="ONFOOT VEHICLE" key1="KEY_8"                  key2="" device="0" button=""                              mouse="" />
+    <input name="DECREASE_TIMESCALE"            category="ONFOOT VEHICLE" key1="KEY_7"                  key2="" device="0" button=""                              mouse="" />
+
+    <input name="CRABSTEERING_ALLWHEEL"         category="VEHICLE" key1="KEY_lctrl KEY_i"               key2="" device="0" button=""                              mouse="" />
+    <input name="CRABSTEERING_CRABLEFT"         category="VEHICLE" key1="KEY_lctrl KEY_u"               key2="" device="0" button=""                              mouse="" />
+    <input name="CRABSTEERING_CRABRIGHT"        category="VEHICLE" key1="KEY_lctrl KEY_o"               key2="" device="0" button=""                              mouse="" />
+
+    <input name="RESET_HEAD_TRACKING"           category="VEHICLE" key1="KEY_f8"                        key2="" device="0" button=""                              mouse="" />
+
+<!-- AXES -->
+
+    <axis name="MENU_AXIS_UP_DOWN"              category="MENU"           key1=""                             key2=""                             device="0"  button=""                   axis="AXIS_2"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="MENU_AXIS_LEFT_RIGHT"           category="MENU"           key1=""                             key2=""                             device="0"  button=""                   axis="AXIS_1"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+
+    <axis name="AXIS_RUN"                       category="ONFOOT"         key1="KEY_lshift"                   key2=""                             device="0"  button=""                   axis="AXIS_6"   invert="false"   isHalfAxis="true"  mouse=""                                       mouseAxis="" />       <!-- R2 -->
+    <axis name="AXIS_PLACEMENT_ROTATE_CAMERA"   category="ONFOOT"         key1="KEY_q"                        key2="KEY_e"                        device="0"  button=""                   axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_MOVE_FORWARD_PLAYER"       category="ONFOOT"         key1="KEY_s"                        key2="KEY_w"                        device="0"  button=""                   axis="AXIS_2"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_MOVE_SIDE_PLAYER"          category="ONFOOT"         key1="KEY_d"                        key2="KEY_a"                        device="0"  button=""                   axis="AXIS_1"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_LOOK_UPDOWN_PLAYER"        category="ONFOOT"         key1="KEY_down"                     key2="KEY_up"                       device="0"  button=""                   axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_LOOK_LEFTRIGHT_PLAYER"     category="ONFOOT"         key1="KEY_right"                    key2="KEY_left"                     device="0"  button=""                   axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_ROTATE_HANDTOOL"           category="ONFOOT"         key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="x" />
+
+    <axis name="AXIS_BRAKE_VEHICLE"             category="VEHICLE"        key1="KEY_s"                        key2=""                             device="0"  button=""                   axis="AXIS_5"   invert="false"   isHalfAxis="true"  mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_ACCELERATE_VEHICLE"        category="VEHICLE"        key1="KEY_w"                        key2=""                             device="0"  button=""                   axis="AXIS_6"   invert="false"   isHalfAxis="true"  mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_MOVE_SIDE_VEHICLE"         category="VEHICLE"        key1="KEY_d"                        key2="KEY_a"                        device="0"  button=""                   axis="AXIS_1"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_LOOK_UPDOWN_VEHICLE"       category="VEHICLE"        key1="KEY_down"                     key2="KEY_up"                       device="0"  button=""                   axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_LOOK_LEFTRIGHT_VEHICLE"    category="VEHICLE"        key1="KEY_right"                    key2="KEY_left"                     device="0"  button=""                   axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse=""                                       mouseAxis="" />
+    <axis name="AXIS_HYDRAULICATTACHER1"        category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_HYDRAULICATTACHER2"        category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" />
+    <axis name="AXIS_FRONTLOADER_ARM"           category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_FRONTLOADER_ARM2"          category="VEHICLE"        key1="KEY_lshift KEY_j"             key2="KEY_lshift KEY_n"             device="0"  button="BUTTON_6"           axis="AXIS_4"   invert="true"    isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="y" mouseInvert="true" />
+    <axis name="AXIS_FRONTLOADER_TOOL"          category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="true"    isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" mouseInvert="true" />
+    <axis name="AXIS_FRONTLOADER_TOOL2"         category="VEHICLE"        key1="KEY_lshift KEY_k"             key2="KEY_lshift KEY_m"             device="0"  button="BUTTON_6"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="x" />
+    <axis name="AXIS_FRONTLOADER_TOOL3"         category="VEHICLE"        key1="KEY_lshift KEY_lctrl KEY_j"   key2="KEY_lshift KEY_lctrl KEY_n"   device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT"   mouseAxis="x" />
+    <axis name="AXIS_FRONTLOADER_TOOL4"         category="VEHICLE"        key1="KEY_lshift KEY_lctrl KEY_k"   key2="KEY_lshift KEY_lctrl KEY_m"   device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_4"   invert="true"    isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT"   mouseAxis="y" mouseInvert="true"/>
+    <axis name="AXIS_FRONTLOADER_TOOL5"         category="VEHICLE"        key1="KEY_lctrl KEY_k"              key2="KEY_lctrl KEY_m"              device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_1"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_MIDDLE"                    mouseAxis="x" />
+    <axis name="AXIS_CRANE_ARM"                 category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" />
+    <axis name="AXIS_CRANE_ARM2"                category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_CRANE_ARM3"                category="VEHICLE"        key1="KEY_lshift KEY_j"             key2="KEY_lshift KEY_n"             device="0"  button="BUTTON_6"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="y" />
+    <axis name="AXIS_CRANE_ARM4"                category="VEHICLE"        key1="KEY_lshift KEY_k"             key2="KEY_lshift KEY_m"             device="0"  button="BUTTON_6"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="x" />
+    <axis name="AXIS_CRANE_TOOL"                category="VEHICLE"        key1="KEY_lshift KEY_lctrl KEY_k"   key2="KEY_lshift KEY_lctrl KEY_m"   device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_4"   invert="true"    isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT"   mouseAxis="y" mouseInvert="true" />
+    <axis name="AXIS_CRANE_TOOL2"               category="VEHICLE"        key1="KEY_lshift KEY_lctrl KEY_j"   key2="KEY_lshift KEY_lctrl KEY_n"   device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT"   mouseAxis="x" />
+    <axis name="AXIS_CRANE_TOOL3"               category="VEHICLE"        key1="KEY_lctrl KEY_k"              key2="KEY_lctrl KEY_m"              device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_1"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_MIDDLE"                    mouseAxis="x" />
+    <axis name="AXIS_CUTTER_REEL"               category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" />
+    <axis name="AXIS_CUTTER_REEL2"              category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_PIPE"                      category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_PIPE2"                     category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" />
+    <axis name="AXIS_DOOR"                      category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_DRAWBAR"                   category="VEHICLE"        key1="KEY_lshift KEY_j"             key2="KEY_lshift KEY_n"             device="0"  button="BUTTON_6"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="y" />
+    <axis name="AXIS_DRAWBAR2"                  category="VEHICLE"        key1="KEY_lshift KEY_k"             key2="KEY_lshift KEY_m"             device="0"  button="BUTTON_6"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_RIGHT"                     mouseAxis="x" />
+    <axis name="AXIS_SPRAYER_ARM"               category="VEHICLE"        key1="KEY_j"                        key2="KEY_n"                        device="0"  button="BUTTON_5"           axis="AXIS_4"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="y" />
+    <axis name="AXIS_WHEEL_BASE"                category="VEHICLE"        key1="KEY_k"                        key2="KEY_m"                        device="0"  button="BUTTON_5"           axis="AXIS_3"   invert="false"   isHalfAxis="false" mouse="MOUSE_BUTTON_LEFT"                      mouseAxis="x" />
+    <axis name="AXIS_CRUISE_CONTROL"            category="VEHICLE"        key1="KEY_2"                        key2="KEY_1"                        device="0"  button="BUTTON_6 BUTTON_5"  axis="AXIS_2"   invert="true"    isHalfAxis="false" mouse=""                                       mouseAxis="" mouseInvert="true" />
+
+
+<!-- LOCKED INPUTS -->
+    <input visible="false" name="NEXT_HANDTOOL"                     category="ONFOOT"  key1="KEY_2"           key2=""   device="0"  button="BUTTON_17"  mouse="MOUSE_BUTTON_WHEEL_UP" />
+    <input visible="false" name="PREVIOUS_HANDTOOL"                 category="ONFOOT"  key1="KEY_1"           key2=""   device="0"  button="BUTTON_19"  mouse="MOUSE_BUTTON_WHEEL_DOWN" />
+
+    <!-- CONSOLE ONLY -->
+    <input visible="false" name="CONSOLE_ALT_COMMAND_BUTTON"        category="VEHICLE" key1=""                key2=""   device="0"  button="BUTTON_5"   mouse="" /> <!-- L1 -->
+    <input visible="false" name="CONSOLE_ALT_COMMAND2_BUTTON"       category="VEHICLE" key1=""                key2=""   device="0"  button="BUTTON_6"   mouse="" /> <!-- R1 -->
+    <input visible="false" name="CONSOLE_ALT_COMMAND3_BUTTON"       category="VEHICLE" key1=""                key2=""   device="0"  button="BUTTON_5 BUTTON_6" mouse="" /> <!-- L1+R1 -->
+    <input visible="false" name="CONSOLE_MULTISELECTION1_PREVIOUS"  category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_5"   mouse="" /> <!-- L1 -->
+    <input visible="false" name="CONSOLE_MULTISELECTION1_NEXT"      category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_6"   mouse="" /> <!-- R1 -->
+    <input visible="false" name="CONSOLE_MENU_ACTIVATE"             category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_1"   mouse="" /> <!-- SQUARE -->
+    <input visible="false" name="CONSOLE_MENU_OK"                   category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_2"   mouse="" /> <!-- X -->
+    <input visible="false" name="CONSOLE_MENU_BACK"                 category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_3"   mouse="" /> <!-- CIRCLE -->
+    <input visible="false" name="CONSOLE_MENU_CANCEL"               category="MENU"    key1=""                key2=""   device="0"  button="BUTTON_4"   mouse="" /> <!-- TRIANGLE -->
+
+    <!-- PC ONLY -->
+    <input visible="false" name="MOUSE_ALT_COMMAND_BUTTON"          category="VEHICLE" key1=""                key2=""   device="0"  button=""           mouse="MOUSE_BUTTON_LEFT" />
+    <input visible="false" name="MOUSE_ALT_COMMAND2_BUTTON"         category="VEHICLE" key1=""                key2=""   device="0"  button=""           mouse="MOUSE_BUTTON_RIGHT" />
+    <input visible="false" name="MOUSE_ALT_COMMAND3_BUTTON"         category="VEHICLE" key1=""                key2=""   device="0"  button=""           mouse="MOUSE_BUTTON_MIDDLE" />
+    <input visible="false" name="MOUSE_ALT_COMMAND4_BUTTON"         category="VEHICLE" key1=""                key2=""   device="0"  button=""           mouse="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT" />
+
+</inputBinding>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<gameSettings revision="11">
+    <modsDirectoryOverride active="false" directory="C:/Temp"/>
+    <defaultMultiplayerPort>10823</defaultMultiplayerPort>
+    <motorStopTimerDuration>30</motorStopTimerDuration>
+    <invertYLook>false</invertYLook>
+    <isHeadTrackingEnabled>true</isHeadTrackingEnabled>
+    <isGamepadEnabled>true</isGamepadEnabled>
+    <cameraSensitivity>1.000000</cameraSensitivity>
+    <vehicleArmSensitivity>1.000000</vehicleArmSensitivity>
+    <inputHelpMode>1</inputHelpMode>
+    <player index="1" colorIndex="1" name="petri"/>
+    <masterVolume>0.600000</masterVolume>
+    <musicVolume>0.000000</musicVolume>
+    <vehicleVolume>0.500000</vehicleVolume>
+    <environmentVolume>1.000000</environmentVolume>
+    <radioVolume>0.500000</radioVolume>
+    <soundPlayer allowStreams="false"/>
+    <radioIsActive>false</radioIsActive>
+    <radioVehicleOnly>true</radioVehicleOnly>
+    <useMiles>false</useMiles>
+    <isTrainTabbable>true</isTrainTabbable>
+    <showTriggerMarker>true</showTriggerMarker>
+    <moneyUnit>1</moneyUnit>
+    <showHelpIcons>false</showHelpIcons>
+    <showHelpMenu>true</showHelpMenu>
+    <resetCamera>false</resetCamera>
+    <useWorldCamera>false</useWorldCamera>
+    <ingameMapState>0</ingameMapState>
+    <ingameMapFilter>0</ingameMapFilter>
+    <useColorblindMode>false</useColorblindMode>
+    <maxNumMirrors>7</maxNumMirrors>
+    <lightsProfile>4</lightsProfile>
+    <fovy>70</fovy>
+    <uiScale>0.700000</uiScale>
+    <realBeaconLights>true</realBeaconLights>
+    <createGame password="aaaa" name="petri&apos;s Game" port="10823" useUpnp="false" autoAccept="true" autoSave="false" allowOnlyFriends="false" mpLanguage="0" capacity="8" bandwidth="2"/>
+</gameSettings>
